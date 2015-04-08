@@ -18,10 +18,10 @@ public class Bilanganprima {
     public static void main(String[] args) {
        Scanner in = new Scanner(System.in);
        int awal, akhir, bil;  
-        System.out.println("Bilangan Prima input");
-        System.out.print("Masukkan awal\t: "); 
+        System.out.println("input");
+        System.out.print(" awal\t: "); 
         awal=in.nextInt();
-        System.out.print("Masukkan akhir\t: "); 
+        System.out.print(" akhir\t: "); 
         akhir=in.nextInt();
         System.out.printf("Bilangan dari %d sampai %d adalah \n", awal, akhir);
         int ang=awal;
